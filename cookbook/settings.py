@@ -23,8 +23,8 @@ if os.path.exists('env.py'):
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
-
+#SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'H4mT4m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
@@ -100,8 +100,9 @@ DATABASES = {
 CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
-    "https://django-heroku-blog-4e662ecc8d53.herokuapp.com",
+    "https://ci-project-cookbook-fe13e6be7172.herokuapp.com",
     "https://8000-neerurathou-ciprojectco-deesfdqowhb.ws.codeinstitute-ide.net"
+    
 ]
 
 
