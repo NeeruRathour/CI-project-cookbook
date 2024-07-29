@@ -12,6 +12,7 @@
     --off-white: #f6f6f6;
     --white: #fff;
     --orange: #ffbf50;
+    --violet: #EE82EE;
 
     /* Utils */
     --smal-box-shadow: 1px -1px 7px 0 #00000061;
@@ -39,13 +40,8 @@ main {
 
 /* Footer */
 footer {
-    flex-shrink: 0;
-    background-color: var(--off-white);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-top: var(--border);
+    background-color: var(--violet);
+    padding: 1rem;
 }
 
 .social-icon {
@@ -55,7 +51,7 @@ footer {
 
 /* Header */
 .navbar {
-    background-color: var(--off-white);
+    background-color: var(--violet);
     box-shadow: var(--smal-box-shadow);
 }
 
