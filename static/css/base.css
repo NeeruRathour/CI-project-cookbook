@@ -18,6 +18,11 @@
     --smal-box-shadow: 1px -1px 7px 0 #00000061;
     --border: 1px solid #00000030;
 }
+/* Header */
+header {
+    background-color: var(--violet);
+    padding: 1rem;
+}
 
 html, body {
     height: 100%;
@@ -49,7 +54,7 @@ footer {
     margin: 1rem;
 }
 
-/* Header */
+
 .navbar {
     background-color: var(--violet);
     box-shadow: var(--smal-box-shadow);
