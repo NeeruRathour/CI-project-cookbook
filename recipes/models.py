@@ -25,6 +25,7 @@ CUISINE_TYPES = (
 
 # Create your models here.
 
+
 class Recipe(models.Model):
     """
     A model to create and manage recipes

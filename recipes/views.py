@@ -1,12 +1,12 @@
 from django.views.generic import (
-    CreateView, ListView,
-    DetailView, DeleteView,
-    UpdateView
+    CreateView,
+    ListView,
+    DetailView,
+    DeleteView,
+    UpdateView,
 )
 
-from django.contrib.auth.mixins import (
-    UserPassesTestMixin, LoginRequiredMixin
-)
+from django.contrib.auth.mixins import UserPassesTestMixin, LoginRequiredMixin
 
 from django.db.models import Q
 
@@ -24,13 +24,13 @@ class Recipes(ListView):
     context_object_name = "recipes"
 
     def get_queryset(self, **kwargs):
-        query = self.request.GET.get('q')
+        query = self.request.GET.get("q")
         if query:
             recipes = self.model.objects.filter(
-                Q(title__icontains=query) |
-                Q(description__icontains=query) |
-                Q(instructions__icontains=query) |
-                Q(cuisine_types__icontains=query)
+                Q(title__icontains=query)
+                | Q(description__icontains=query)
+                | Q(instructions__icontains=query)
+                | Q(cuisine_types__icontains=query)
             )
         else:
             recipes = self.model.objects.all()
@@ -60,19 +60,21 @@ class AddRecipe(LoginRequiredMixin, CreateView):
 
 class EditRecipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     """Edit a recipe"""
-    template_name = 'recipes/edit_recipe.html'
+
+    template_name = "recipes/edit_recipe.html"
     model = Recipe
     form_class = RecipeForm
-    success_url = '/recipes/'
-    
+    success_url = "/recipes/"
+
     def test_func(self):
         return self.request.user == self.get_object().user
 
 
 class DeleteRecipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     """Delete a recipe"""
+
     model = Recipe
-    success_url = '/recipes/'
+    success_url = "/recipes/"
 
     def test_func(self):
         return self.request.user == self.get_object().user
