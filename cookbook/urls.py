@@ -22,5 +22,6 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
     path('djrichtextfield/', include('djrichtextfield.urls')),
     path('', include('home.urls')),
+    path('recipes/', include('recipes.urls')),
    
 ]
