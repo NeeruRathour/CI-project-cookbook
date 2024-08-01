@@ -153,6 +153,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.herokuapp.com",
     "https://ci-project-cookbook-fe13e6be7172.herokuapp.com/",
     "https://8000-neerurathou-ciprojectco-2hwfs3sm8az.ws.codeinstitute-ide.net",
+    "https://8000-neerurathou-ciprojectco-o1se6oo044v.ws.codeinstitute-ide.net",
 
     
 ]
