@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-
+from cloudinary.models import CloudinaryField
 from djrichtextfield.models import RichTextField
 from django_resized import ResizedImageField
 
