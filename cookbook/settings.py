@@ -36,7 +36,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'False'
 
 
-ALLOWED_HOSTS = ['8000-neerurathou-ciprojectco-o1se6oo044v.ws.codeinstitute-ide.net','.herokuapp.com']
+ALLOWED_HOSTS = ['8000-neerurathou-ciprojectco-c1d5tvwg1dt.ws.codeinstitute-ide.net','.herokuapp.com']
 
 
 # Application definition
@@ -155,8 +155,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com",
     "https://ci-project-cookbook-fe13e6be7172.herokuapp.com/",
-    "https://8000-neerurathou-ciprojectco-o1se6oo044v.ws.codeinstitute-ide.net",
-    "https://8000-neerurathou-ciprojectco-o1se6oo044v.ws.codeinstitute-ide.net/recipes/add/",
+    "https://8000-neerurathou-ciprojectco-c1d5tvwg1dt.ws.codeinstitute-ide.net",
 
     
 ]
