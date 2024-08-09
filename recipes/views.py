@@ -15,7 +15,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Recipe
 from .forms import RecipeForm
 
-
+#list view of recipes for search button
 class Recipes(ListView):
     """View all recipes"""
 
@@ -36,7 +36,7 @@ class Recipes(ListView):
             recipes = self.model.objects.all()
         return recipes
 
-
+#deatiles view on one recipe
 class RecipeDetail(DetailView):
     """View a single recipe"""
 
@@ -44,7 +44,7 @@ class RecipeDetail(DetailView):
     model = Recipe
     context_object_name = "recipe"
 
-
+#add new recipe
 class AddRecipe(LoginRequiredMixin, CreateView):
     """Add recipe view"""
 
@@ -57,7 +57,7 @@ class AddRecipe(LoginRequiredMixin, CreateView):
         form.instance.user = self.request.user
         return super(AddRecipe, self).form_valid(form)
 
-
+#edit the recipe
 class EditRecipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     """Edit a recipe"""
     template_name = 'recipes/edit_recipe.html'
@@ -68,7 +68,7 @@ class EditRecipe(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     def test_func(self):
         return self.request.user == self.get_object().user
 
-
+#delete the recipe
 class DeleteRecipe(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     """Delete a recipe"""
     model = Recipe

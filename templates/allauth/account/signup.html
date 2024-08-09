@@ -19,4 +19,34 @@
     <button type="submit" class="btn btn-primary w-25">Sign Up</button>
   </form>
 </div>
+
+
+<!-- Popup message container -->
+<div id="loginPopup" class="popup">
+  <div class="popup-content">
+      <p>You are logged in successfully.</p>
+      <button id="closePopup" class="btn btn-primary">Close</button>
+  </div>
+</div>
+
+
+
+<!-- JavaScript to Handle the Popup and Form Submission -->
+<script>
+  document.getElementById('signup_form').addEventListener('submit', function(event) {
+      // Pause the form from submitting immediately
+      event.preventDefault();
+
+      // Show the popup
+      document.getElementById('loginPopup').style.display = 'flex'; // Change to 'flex' for centering
+
+      // to popup close
+      document.getElementById('closePopup').addEventListener('click', function() {
+          document.getElementById('loginPopup').style.display = 'none';
+          // Submit the form after closing the popup
+          document.getElementById('signup_form').submit();
+      });
+  });
+</script>
+
 {% endblock %}

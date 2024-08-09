@@ -30,40 +30,18 @@
     </div>
 </div>
 
-<!-- Styles for the Popup -->
-<style>
-    .popup {
-        display: none; /* Hidden by default */
-        position: fixed;
-        z-index: 1000;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-        justify-content: center;
-        align-items: center;
-    }
 
-    .popup-content {
-        background-color: white;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 300px;
-        text-align: center;
-    }
-</style>
 
 <!-- JavaScript to Handle the Popup and Form Submission -->
 <script>
     document.getElementById('loginForm').addEventListener('submit', function(event) {
-        // Prevent the form from submitting immediately
+        // Pause the form from submitting immediately
         event.preventDefault();
 
         // Show the popup
         document.getElementById('loginPopup').style.display = 'flex'; // Change to 'flex' for centering
 
-        // Handle popup close
+        // to popup close
         document.getElementById('closePopup').addEventListener('click', function() {
             document.getElementById('loginPopup').style.display = 'none';
             // Submit the form after closing the popup
