@@ -6,7 +6,7 @@ We know the deal. We feel your pain. Here are our superstar workhorse recipes, d
 
 Welcome to CookBook, a place where you can easily store, retrieve and edit your favourite recipes all in one place. This website is for anyone who loves to cook but doesn’t love wasting valuable cooking time searching for their favourite recipes.
 
-[View the live project here](https://ci-project-cookbook-fe13e6be7172.herokuapp.com/)
+[View the live project here](https://ci-project-cookbook-fe13e6be7172.herokuapp.com/)</br>
 Logo Created using canva:</br>
 <img src="staticfiles/images/logo.webp" alt="overview of all design-mockups" width="200">
 

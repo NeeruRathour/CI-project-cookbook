@@ -11,15 +11,43 @@
   <p>{% blocktrans %}If you have not created an account yet, then please
   <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
 
-
-  <form class="form p-2" method="POST" action="{% url 'account_login' %}">
+  <form id="loginForm" class="form p-2" method="POST" action="{% url 'account_login' %}">
     {% csrf_token %}
     {{ form|crispy }}
     {% if redirect_field_value %}
     <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
     {% endif %}
-    <button class="btn btn-primary w-25 mb-2" type="submit">{% trans "Sign In" %}</button>
+    <button id="signInButton" class="btn btn-primary w-25 mb-2" type="submit">{% trans "Sign In" %}</button>
     <a class="button secondaryAction d-block" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
   </form>
 </div>
+
+<!-- Popup message container -->
+<div id="loginPopup" class="popup">
+    <div class="popup-content">
+        <p>You are logged in successfully.</p>
+        <button id="closePopup" class="btn btn-primary">Close</button>
+    </div>
+</div>
+
+
+
+<!-- JavaScript to Handle the Popup and Form Submission -->
+<script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        // Pause the form from submitting immediately
+        event.preventDefault();
+
+        // Show the popup
+        document.getElementById('loginPopup').style.display = 'flex'; // Change to 'flex' for centering
+
+        // to popup close
+        document.getElementById('closePopup').addEventListener('click', function() {
+            document.getElementById('loginPopup').style.display = 'none';
+            // Submit the form after closing the popup
+            document.getElementById('loginForm').submit();
+        });
+    });
+</script>
+
 {% endblock %}

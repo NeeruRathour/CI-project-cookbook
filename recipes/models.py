@@ -27,7 +27,7 @@ COOKING_METHOD = (
     ('other', 'Other'),
 )
 
-
+#Model Recipe
 class Recipe(models.Model):
     """
     Model to create and manage recipes

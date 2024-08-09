@@ -7,11 +7,38 @@
 <div class="container">
     <h1 class="text-center mt-2">Confirm Recipe Deletion</h1>
     <div class="d-flex justify-content-center pt-3">
-        <form method="post" class="text-center">
+        <form id="delete_recipe" method="post" class="text-center">
             {% csrf_token %} 
             <p>Are you sure you want to delete "{{object.title}}"?</p>
             <input type="submit" value="Confirm" class="btn btn-primary w-25">
         </form>
     </div>
 </div>
+<!-- Popup message container -->
+<div id="loginPopup" class="popup">
+    <div class="popup-content">
+        <p>Recipe deleted successfully.</p>
+        <button id="closePopup" class="btn btn-primary">Close</button>
+    </div>
+  </div>
+  
+  
+  
+  <!-- JavaScript to Handle the Popup and Form Submission -->
+  <script>
+    document.getElementById('delete_recipe').addEventListener('submit', function(event) {
+        // Pause the form from submitting immediately
+        event.preventDefault();
+  
+        // Show the popup
+        document.getElementById('loginPopup').style.display = 'flex'; // Change to 'flex' for centering
+  
+        // to popup close
+        document.getElementById('closePopup').addEventListener('click', function() {
+            document.getElementById('loginPopup').style.display = 'none';
+            // Submit the form after closing the popup
+            document.getElementById('delete_recipe').submit();
+        });
+    });
+  </script>
 {% endblock %}

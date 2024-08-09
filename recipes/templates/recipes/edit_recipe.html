@@ -4,7 +4,7 @@
 
 {% block content %}
 <div class="container">
-    <form method="POST" enctype="multipart/form-data" class="p-2 form">
+    <form id="edit_recipe" method="POST" enctype="multipart/form-data" class="p-2 form">
         <h1 class="text-center">Edit Recipe</h1>
         {% csrf_token %}
         {{ form.media }} 
@@ -14,4 +14,32 @@
         </div>
     </form>
 </div>
+<!-- Popup message container -->
+<div id="loginPopup" class="popup">
+    <div class="popup-content">
+        <p>Recipe edited successfully.</p>
+        <button id="closePopup" class="btn btn-primary">Close</button>
+    </div>
+  </div>
+  
+  
+  
+  <!-- JavaScript to Handle the Popup and Form Submission -->
+  <script>
+    document.getElementById('edit_recipe').addEventListener('submit', function(event) {
+        // Pause the form from submitting immediately
+        event.preventDefault();
+  
+        // Show the popup
+        document.getElementById('loginPopup').style.display = 'flex'; // Change to 'flex' for centering
+  
+        // to popup close
+        document.getElementById('closePopup').addEventListener('click', function() {
+            document.getElementById('loginPopup').style.display = 'none';
+            // Submit the form after closing the popup
+            document.getElementById('edit_recipe').submit();
+        });
+    });
+  </script>
+
 {% endblock %}
