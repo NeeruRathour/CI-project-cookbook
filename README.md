@@ -12,7 +12,7 @@ Cookbook is a place where you can easily store, retrieve and edit your favourite
 ## Am I Responsive?</br>
 - How this project looks on different devices!
 
-<img src="staticfiles/images/amiresponsive.png" alt="overview of all design-mockups" width="500">
+<img src="documents/images/amiresponsive.png" alt="overview of all design-mockups" width="500">
 
 
 Logo Created using canva:</br>
@@ -21,6 +21,8 @@ Logo Created using canva:</br>
 
 ## Kanban Board</br>
 <img src="documents/kanbanboard.png" alt="kanban board of the project" width="500">
+[Link to Project Board](https://github.com/users/NeeruRathour/projects/5)</br>
+</br>
 
 
 ## User Stories</br>
@@ -46,7 +48,6 @@ Logo Created using canva:</br>
 
 
 ## User Experience (UX)</br>
-<img src="documents/home_page.png" alt="overview landing page all screen versions" width="500">
  
 - Simple navigation: A clear instruction to ensure a smooth user experience for all ages and skill levels.
 - Responsive Design: Adapts to different devices, from smartphones to desktops, for accessibility and convenience to all users.
@@ -63,8 +64,12 @@ Logo Created using canva:</br>
 - The start page offers a warm welcome message, clearly stating the website's purpose.</br>
 <img src="documents/home_page_register.png" alt="feature-welcome-screen" width="500"></br>
 
+
+- Sign in Page</br>
 <img src="documents/signin_page.png" alt="sign in page" width="500"></br>
 
+
+- Signup Page</br>
 <img src="documents/signup_page.png" alt="signup page" width="500"></br>
 
 - Once the user is logged in user can edit/delete his own recipes not the recipes belongs to others.</br>
@@ -76,7 +81,6 @@ Logo Created using canva:</br>
 <img src="documents/search.png" alt="search option image" width="500"></br>
 
 
-- The responsive design ensures compatibility across all devices.
 
 ### Typography
 
@@ -154,7 +158,7 @@ The next image is of desktop and laptop responsive site.</br>
 
 ## Deployment</br>
 
-- The site was deployed to Heroku 
+- The site is deployed to Heroku 
 
 The live link can be found here - (https://ci-project-cookbook-fe13e6be7172.herokuapp.com/)
 
@@ -174,6 +178,6 @@ The live link can be found here - (https://ci-project-cookbook-fe13e6be7172.hero
 
 ## Future Features
 - add videos to the recipes 
-- add search option with specific requirment like mealtype, cooking Method or time.
+- add search option with specific requirment like mealtype, cooking method or time.
 
  
