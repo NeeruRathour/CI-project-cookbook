@@ -1,16 +1,29 @@
-# CI-project-cookbook
+# CookBook
 django cookbook
 Welcome to CookBook
 Introduction
-We know the deal. We feel your pain. Here are our superstar workhorse recipes, designed and tested to help you cook a great family meal.
+We know the deal. We feel your pain. Here are our amazing recipes, designed and tested to help you cook a great family meal.
 
-Welcome to CookBook, a place where you can easily store, retrieve and edit your favourite recipes all in one place. This website is for anyone who loves to cook but doesn’t love wasting valuable cooking time searching for their favourite recipes.
+Cookbook is a place where you can easily store, retrieve and edit your favourite recipes all in one place. This website is for anyone who loves to cook but dosen't have time for searching  their favourite recipes.
 
 [View the live project here](https://ci-project-cookbook-fe13e6be7172.herokuapp.com/)</br>
+</br>
+
+## Am I Responsive?</br>
+- How this project looks on different devices!
+
+<img src="staticfiles/images/amiresponsive.png" alt="overview of all design-mockups" width="500">
+
+
 Logo Created using canva:</br>
 <img src="staticfiles/images/logo.webp" alt="overview of all design-mockups" width="200">
 
-## User Stories
+
+## Kanban Board</br>
+<img src="documents/kanbanboard.png" alt="kanban board of the project" width="500">
+
+
+## User Stories</br>
 - As a site user, I can view a paginated list of posts so that I can select which post I want to view.
 - As a user I can upload images of my recipies.
 - As a Site User / Admin I can view different recipies to choose from.
@@ -23,12 +36,14 @@ Logo Created using canva:</br>
 - As owner I want to creat site map.
 
 
+## MoSCoW implementation</br>
+<img src="documents/Moscow.png" alt="work-flow-diagram" width="500">
+
 ## Workflow
 - Following diagram defines the worlflow of the website.</br>
 <img src="documents/lucidchart_diagram.png" alt="work-flow-diagram" width="500">
 
-## Kanban Board</br>
-<img src="documents/kanbanboard.png" alt="kanban board of the project" width="500">
+
 
 ## User Experience (UX)</br>
 <img src="documents/home_page.png" alt="overview landing page all screen versions" width="500">
@@ -43,7 +58,8 @@ Logo Created using canva:</br>
 - Django AllAuth User Model is used to creat a recipe Model with the following feilds:</br>
 <img src="documents/models.png" alt="recipe-model" width="500">
 
-## Features and Design
+## Features and Design 
+
 - The start page offers a warm welcome message, clearly stating the website's purpose.</br>
 <img src="documents/home_page_register.png" alt="feature-welcome-screen" width="500"></br>
 
@@ -65,21 +81,19 @@ Logo Created using canva:</br>
 ### Typography
 
 
-Google Fonts Garamons ,serif, Roboto were used. These selections were made for their compatibility, simplicity, and user-friendly appearance. They ensure readability and a clear design across all tested screen sizes.
+- Google Fonts Garamons ,serif, Roboto were used. These selections were made for their compatibility, simplicity, and user-friendly appearance. They ensure readability and a clear design across all tested screen sizes.
 
-### Color Scheme
-Selected soothing and light colours to which make the website welcoming.</br>
 
-<img src="" alt="colour pallete" width="400">
+
 
 ### Wireframes
 
 Lo fidelity initial wireframes:</br>
 
-<img src="" alt="initial wireframe" width="500">
+<img src="documents/lo_fedilitydesign.jpeg" alt="initial wireframe" width="500">
 
 
-Hi fidelity wireframes were created in Figma for mobile, table and desktop versions.</br>
+Hi-fidelity wireframes were created using Llucid for mobile, table and desktop versions.</br>
 
   - The desktop versions and mobile version:</br>
 
@@ -103,26 +117,21 @@ Hi fidelity wireframes were created in Figma for mobile, table and desktop versi
 - [Cloudinary](https://cloudinary.com/?utm_campaign=1329&utm_content=instapagelogocta-selfservetest)
 - [PostgreSQL](https://www.postgresql.org/)
 
-### Validator Testing 
+### Validator Testing </br>
 
-- HTML
+- HTML</br>
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)</br>
 
 <img src="documents/html_validatior.png" alt="HTML validation" width="500"> 
 
 
-- CSS
+- CSS</br>
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)</br>
 
 <img src="documents/css_validation.png" alt="CSS validation" width="500">  
 
 
-- JS
-  - No errors were found when passing through the official [(JSHint) validator](https://jshint.com/)
 
-  - There are 33 known ES6-related warnings. However, no action is required for these warnings.</br>
-
-  <img src="" alt="JS validation 1" width="500"> 
 
 - Lighthouse Performnce</br>
   <img src="documents/lighthouse.png" alt="Lighthouse" width="500">
@@ -141,14 +150,9 @@ The next image is of desktop and laptop responsive site.</br>
 - <img src="documents/laptop_test.jpeg" alt="testing-on-laptop" width="250">
 
 
-### Unfixed Bugs
-- Not fully responsive in 3200x2000 resolution.
 
-### Future UX Considerations
-- adding the videos to the recipes.
-- making search more specific like meal type, time or method wise.
 
-## Deployment
+## Deployment</br>
 
 - The site was deployed to Heroku 
 
