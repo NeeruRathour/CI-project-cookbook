@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
 
 :root {
-    /** Fonts */
+    /* Fonts */
     --title: 'EB Garamond', serif;
     --main-font: 'Roboto', serif;
 
@@ -73,7 +73,7 @@ img.logo {
     font-weight: 500;
 }
 
-/* Form */
+/* style for Form */
 
 .form {
     width: 100%;
@@ -82,7 +82,7 @@ img.logo {
     border-radius: 5px;
 }
 
-/* Recipes */
+/* for Recipes */
 
 .card {
     height: 90%;
@@ -215,6 +215,39 @@ h3 > a {
 .thumb img {
     width: 100%;
 }
+
+
+/* Styles for the Popup  */
+
+    .popup {
+        display: none; /* Hidden by default */
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .popup-content {
+        background-color: var(--violet) ;
+        margin: 20% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 300px;
+        text-align: center;
+        border-radius: 5px
+        
+    }
+
+    
+
+/* pop style ends */
+
 
 @media screen and (min-width:40em){
     .form {
