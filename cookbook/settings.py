@@ -60,8 +60,8 @@ INSTALLED_APPS = [
     #others
     'crispy_forms',
     'crispy_bootstrap5',
-    'cloudinary',
     'cloudinary_storage',
+    'cloudinary',
     'djrichtextfield'
 ]
 

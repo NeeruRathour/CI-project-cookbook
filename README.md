@@ -1,7 +1,7 @@
 # CookBook
 
-Welcome to CookBook</br>
-Introduction</br>
+<h2>Welcome to CookBook</h2></br>
+<h3>A Recipe Website</h3></br>
 We know the deal. We feel your pain. Here are our amazing recipes, designed and tested to help you cook a great family meal.
 
 Cookbook is a place where you can easily store, retrieve and edit your favourite recipes all in one place. This website is for anyone who loves to cook but dosen't have time for searching  their favourite recipes.
@@ -62,21 +62,25 @@ Logo Created using canva:</br>
 ## Features and Design 
 
 - The start page offers a warm welcome message, clearly stating the website's purpose.</br>
+- show some recipes to visitor to choose one from.
+
 <img src="documents/home_page_register.png" alt="feature-welcome-screen" width="500"></br>
 
 
 - Sign in Page</br>
+- User sign in here to add, update or delete the recipe.
 <img src="documents/signin_page.png" alt="sign in page" width="500"></br>
 
 
 - Signup Page</br>
+- User need to signup to add a new resipe to the website.
 <img src="documents/signup_page.png" alt="signup page" width="500"></br>
 
 - Once the user is logged in user can edit/delete his own recipes not the recipes belongs to others.</br>
 
-<img src="documents/home_page_register.png" alt="" width="500">
+<img src="documents/home_page_register.png" alt="home page" width="500">
 
-- At the top right there is a search option.User caan search through the recipes using any keyword.</br>
+- At the top right there is a search option.User can search through the recipes using any keyword.</br>
 
 <img src="documents/search.png" alt="search option image" width="500"></br>
 
@@ -108,9 +112,9 @@ Hi-fidelity wireframes were created using Llucid for mobile, table and desktop v
 
 
 ### Technologies Used
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-- [JS](https://en.wikipedia.org/wiki/JavaScript)
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) Used for page structure.
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)Used for custom styling.
+- [JS](https://en.wikipedia.org/wiki/JavaScript) used for event listeners on buttons.
 - [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 - [Google Fonts](https://fonts.google.com/) EB Garamond were used for the project.
 - [Git](https://git-scm.com/) Git version control via the Gitpod terminal was used by committing changes and pushing them to GitHub.
@@ -118,8 +122,8 @@ Hi-fidelity wireframes were created using Llucid for mobile, table and desktop v
 - [Lucid ](https://lucid.co/) Used to create wireframes during the design process.
 - [Bootstrap](https://getbootstrap.com/) Used to create the responsive layout.
 - [Django:](https://www.djangoproject.com/) Used to create the responsive layout.
-- [Cloudinary](https://cloudinary.com/?utm_campaign=1329&utm_content=instapagelogocta-selfservetest)
-- [PostgreSQL](https://www.postgresql.org/)
+- [Cloudinary](https://cloudinary.com/?utm_campaign=1329&utm_content=instapagelogocta-selfservetest) Used to upload images for the website.
+- [PostgreSQL](https://www.postgresql.org/)Used as database for the website.
 
 ### Validator Testing </br>
 
