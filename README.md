@@ -148,12 +148,14 @@ Hi-fidelity wireframes were created using Llucid for mobile, table and desktop v
 
 Screen size reflector used to ensure Desktop Monitors, Tablets and Mobile Phone screen sizes are accomodated.
 
+- Image is of phone responsive site.</br>
+- <img src="documents/mobile.jpeg" alt="mobile-test-image" width="500"></br>
 
-The next image is of desktop and laptop responsive site.</br>
+- Image is of desktop  responsive site.</br>
 - <img src="documents/test_destop.jpeg" alt="testing-desktop-frontpage" width="500"></br>
 
-
-- <img src="documents/laptop_test.jpeg" alt="testing-on-laptop" width="250">
+- Image is of laptop responsive site.</br>
+- <img src="documents/laptop_test.jpeg" alt="testing-on-laptop" width="500">
 
 
 
@@ -167,7 +169,7 @@ The live link can be found here - (https://ci-project-cookbook-fe13e6be7172.hero
 
 ## Credits 
 
-- Google Fonts were used for the project.
+
 - Lucid is used to create wireframes during the design process and flowchart creation(https://lucid.co/)
 - Logo Created using canva(https://www.canva.com/)
 - This video helped us to inspire the logic :(https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy)
