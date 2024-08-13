@@ -144,8 +144,6 @@ Hi-fidelity wireframes were created using Llucid for mobile, table and desktop v
 
 Screen size reflector used to ensure Desktop Monitors, Tablets and Mobile Phone screen sizes are accomodated.
 
-The below shows a mobile screen size and how it looks on there.</br>
-- <img src="" alt="testing-mobile-responsive-frontpage" width="500">
 
 The next image is of desktop and laptop responsive site.</br>
 - <img src="documents/test_destop.jpeg" alt="testing-desktop-frontpage" width="500"></br>
