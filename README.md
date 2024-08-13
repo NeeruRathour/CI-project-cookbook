@@ -1,7 +1,7 @@
 # CookBook
-django cookbook
-Welcome to CookBook
-Introduction
+
+Welcome to CookBook</br>
+Introduction</br>
 We know the deal. We feel your pain. Here are our amazing recipes, designed and tested to help you cook a great family meal.
 
 Cookbook is a place where you can easily store, retrieve and edit your favourite recipes all in one place. This website is for anyone who loves to cook but dosen't have time for searching  their favourite recipes.
@@ -12,7 +12,7 @@ Cookbook is a place where you can easily store, retrieve and edit your favourite
 ## Am I Responsive?</br>
 - How this project looks on different devices!
 
-<img src="documents/images/amiresponsive.png" alt="overview of all design-mockups" width="500">
+<img src="documents/amiresponsive.png" alt="overview of all design-mockups" width="500">
 
 
 Logo Created using canva:</br>
@@ -20,7 +20,7 @@ Logo Created using canva:</br>
 
 
 ## Kanban Board</br>
-<img src="documents/kanbanboard.png" alt="kanban board of the project" width="500">
+<img src="documents/kanbanboard.png" alt="kanban board of the project" width="500"></br>
 [Link to Project Board](https://github.com/users/NeeruRathour/projects/5)</br>
 </br>
 
@@ -30,7 +30,7 @@ Logo Created using canva:</br>
 - As a user I can upload images of my recipies.
 - As a Site User / Admin I can view different recipies to choose from.
 - As a Site User, I can click on recipe link so that I can read the full recipe.
-- As a Site User I can edit or delete my recipies on a post .
+- As a Site User I can edit or delete my recipies.
 - As a user I want to mention meal type.
 - As a user/Admin I want to search through the recipes.
 - As Admin I want to create database and store information in there.
@@ -49,9 +49,9 @@ Logo Created using canva:</br>
 
 ## User Experience (UX)</br>
  
-- Simple navigation: A clear instruction to ensure a smooth user experience for all ages and skill levels.
+- Simple navigation: A clear instruction to ensure a smooth user experience for all users.
 - Responsive Design: Adapts to different devices, from smartphones to desktops, for accessibility and convenience to all users.
-- Visually Appealing: Produce a modern, eye-catching aesthetic with a vibrant color scheme to keep users engaged throughout the quiz.
+- Visually Appealing: Produce a modern, soothing color scheme to keep users engaged throughout the website.
 - Clear website and functional to not overwhelm the users.
 
 
