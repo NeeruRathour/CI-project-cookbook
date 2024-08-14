@@ -68,17 +68,17 @@ Logo Created using canva:</br>
 
 
 - Sign in Page</br>
-- User sign in here to add, update or delete the recipe.
+- User sign in here to add, update or delete the recipe.</br>
 <img src="documents/signin_page.png" alt="sign in page" width="500"></br>
 
 
 - Signup Page</br>
-- User need to signup to add a new resipe to the website.
+- User need to signup to add a new resipe to the website.</br>
 <img src="documents/signup_page.png" alt="signup page" width="500"></br>
 
 - Once the user is logged in user can edit/delete his own recipes not the recipes belongs to others.</br>
 
-<img src="documents/home_page_register.png" alt="home page" width="500">
+<img src="documents/home_page_register.png" alt="home page" width="500"></br>
 
 - At the top right there is a search option.User can search through the recipes using any keyword.</br>
 
@@ -115,7 +115,7 @@ Hi-fidelity wireframes were created using Llucid for mobile, table and desktop v
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) Used for page structure.
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)Used for custom styling.
 - [JS](https://en.wikipedia.org/wiki/JavaScript) used for event listeners on buttons.
-- [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+- [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) used as main programming language in this project.
 - [Google Fonts](https://fonts.google.com/) EB Garamond were used for the project.
 - [Git](https://git-scm.com/) Git version control via the Gitpod terminal was used by committing changes and pushing them to GitHub.
 - [GitHub](https://github.com/) Serves as the repository for the project's code and Agile Methodology.
@@ -162,7 +162,7 @@ Screen size reflector used to ensure Desktop Monitors, Tablets and Mobile Phone 
 
 ## Deployment</br>
 
-- The site is deployed to Heroku 
+- The site is deployed on Heroku 
 
 The live link can be found here - (https://ci-project-cookbook-fe13e6be7172.herokuapp.com/)
 
