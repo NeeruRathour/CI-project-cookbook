@@ -154,13 +154,13 @@ I used the JS Hint Validator to check my JS code and there were no errors.
 
 <img src="documents/add_recipe_js.png" alt="views_python_validator" width="500">
 
-- HTML</br>
+##  HTML</br>
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)</br>
 
 <img src="documents/html_validatior.png" alt="HTML validation" width="500"> 
 
 
-- CSS</br>
+##  CSS</br>
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)</br>
 
 <img src="documents/css_validation.png" alt="CSS validation" width="500">  
@@ -174,7 +174,8 @@ I used the JS Hint Validator to check my JS code and there were no errors.
 | User can create an account                 | Pass   |
 | User can log into profile                  | Pass   |
 | User can log out of profile                | Pass   |
-| Welcome page displays after registration   | Pass   |
+| Welcome name displays after registration   | Pass   |
+| User redirected to main page after log in  | Pass   |
 
 ## User navigation tests
 
@@ -182,10 +183,10 @@ I used the JS Hint Validator to check my JS code and there were no errors.
 |--------------------------------------------------|--------|
 | User can easily navigate through the site        | Pass   |
 | User can access the homepage                     | Pass   |
-| User can access the recipe listing page          | Pass   |
-| User can access their account dashboard welcome  | Pass   |
-| User can access the favorites page               | Pass   |
-| User can access the recipes page created earier  | Pass   |
+| User can access the recipe page                  | Pass   |
+| User can log into there account                  | Pass   |
+| User can register a new account.                 | Pass   |
+| User can access the recipes page created earlier | Pass   |
 | User can search for recipes using the search bar | Pass   |
 | User can navigate to social links                | Pass   |
 
@@ -194,7 +195,6 @@ I used the JS Hint Validator to check my JS code and there were no errors.
 | Test                                                       | Result |
 |------------------------------------------------------------|--------|
 | User can create a new recipe                               | Pass   |
-| User can preview a new recipe before submission            | Pass   |
 | User can edit a recipe they created                        | Pass   |
 | User can delete a recipe they created                      | Pass   |
 | User can edit and delete his own recipe only               | Pass   |
