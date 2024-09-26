@@ -138,7 +138,47 @@ Hi-fidelity wireframes were created using Llucid for mobile, table and desktop v
 
 <img src="documents/css_validation.png" alt="CSS validation" width="500">  
 
+##  Manual testing
 
+## Account registration & authentication tests
+
+| Test                                       | Result |
+|--------------------------------------------|--------|
+| User can create an account                 | Pass   |
+| User can log into profile                  | Pass   |
+| User can log out of profile                | Pass   |
+| Welcome page displays after registration   | Pass   |
+
+## User navigation tests
+
+| Test                                             | Result |
+|--------------------------------------------------|--------|
+| User can easily navigate through the site        | Pass   |
+| User can access the homepage                     | Pass   |
+| User can access the recipe listing page          | Pass   |
+| User can access their account dashboard welcome  | Pass   |
+| User can access the favorites page               | Pass   |
+| User can access the recipes page created earier  | Pass   |
+| User can search for recipes using the search bar | Pass   |
+| User can navigate to social links                | Pass   |
+
+## Recipe management tests - CRUD functionality
+
+| Test                                                       | Result |
+|------------------------------------------------------------|--------|
+| User can create a new recipe                               | Pass   |
+| User can preview a new recipe before submission            | Pass   |
+| User can edit a recipe they created                        | Pass   |
+| User can delete a recipe they created                      | Pass   |
+| User can edit and delete his own recipe only               | Pass   |
+| User can see new recipe on a page with all their recipes   | Pass   |
+
+
+## Administrative controls tests
+
+| Test                                                                 | Result |
+|----------------------------------------------------------------------|--------|
+| Admin can create, view, update, and delete any recipe via admin panel| Pass   |
 
 
 - Lighthouse Performnce</br>
