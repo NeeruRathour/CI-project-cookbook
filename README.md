@@ -127,6 +127,33 @@ Hi-fidelity wireframes were created using Llucid for mobile, table and desktop v
 
 ### Validator Testing </br>
 
+
+## Python
+I used the CI Python Linter to check my Python files and addressed all the errors. The code now passes all checks successfully.
+
+I checked homepage, welcome page, sign in, sign out, sign up, recipe list, view recipe, edit recipe, preview recipe, create recipe, search, my recipes, delete recipe.
+- views.py
+
+<img src="documents/views_linter.png" alt="views_python_validator" width="500">
+
+- models.py
+
+<img src="documents/models_linter.png" alt="views_python_validator" width="500">
+
+- admin.py
+
+<img src="documents/admin_linter.png" alt="views_python_validator" width="500">
+
+- forms.py
+
+<img src="documents/forms_linter.png" alt="views_python_validator" width="500">
+
+
+## JS
+I used the JS Hint Validator to check my JS code and there were no errors.
+
+<img src="documents/add_recipe_js.png" alt="views_python_validator" width="500">
+
 - HTML</br>
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)</br>
 
@@ -202,10 +229,43 @@ Screen size reflector used to ensure Desktop Monitors, Tablets and Mobile Phone 
 
 ## Deployment</br>
 
-- The site is deployed on Heroku 
+- This project was deployed using GitHub and Heroku. 
 
 The live link can be found here - (https://ci-project-cookbook-fe13e6be7172.herokuapp.com/)
 
+
+### **GitHub**
+
+1. Start a new repository.
+   - Log in to GitHub.
+   - Click the blue book icon.
+   - Choose a template .
+   - Add a repository name and click "Create repository" at the bottom of the page.
+   - Then, click the Gitpod button.
+
+### **Gitpod and Django**
+
+1. Install Django and other necessary libraries:
+   - Use `pip install Django` to install Django.
+   - Install any other required libraries.
+2. Write your code.
+3. Create a `.env` file for sensitive data and add it to the `.gitignore` file to prevent it from being publicly accessible.
+4. Generate a `requirements.txt` file by running `pip3 freeze --local > requirements.txt`.
+5. Create a `Procfile`.
+
+### **Heroku**
+
+1. Log in to Heroku.
+2. Click the "New" button, then select "New app".
+3. Choose a unique app name and region, then click "Create app".
+4. Go to "Settings" and click "Reveal Config Vars". Here, enter all the sensitive data, database addresses, and other URLs used in the project.
+5. Go back to the top and click on "Deploy", then select "GitHub".
+6. Scroll down and click on "Connect to GitHub".
+7. Search for your GitHub repository name by typing it in the search field.
+8. Click on "Connect".
+9. Scroll down and click on "Deploy Branch".
+10. Once the app is built with Python and all the dependencies, you'll see a message that says "The app was successfully deployed".
+11. Click on "View" to see the [deployed site](https://avtpepper-onestop-artist-shop.herokuapp.com/).
 
 ## Credits 
 
