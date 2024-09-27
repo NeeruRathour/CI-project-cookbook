@@ -200,6 +200,12 @@ I used the JS Hint Validator to check my JS code and there were no errors.
 | User can edit and delete his own recipe only               | Pass   |
 | User can see new recipe on a page with all their recipes   | Pass   |
 
+## Javascript pop up message test
+|Test                                                         | Result |
+|-------------------------------------------------------------|--------|
+| Pop up message shows when user is logged in successfully    | Pass   |
+| 
+
 
 ## Administrative controls tests
 
@@ -236,7 +242,7 @@ The live link can be found here - (https://ci-project-cookbook-fe13e6be7172.hero
 
 ### **GitHub**
 
-1. Start a new repository.
+- Start a new repository.
    - Log in to GitHub.
    - Click the blue book icon.
    - Choose a template .
@@ -245,31 +251,31 @@ The live link can be found here - (https://ci-project-cookbook-fe13e6be7172.hero
 
 ### **Gitpod and Django**
 
-1. Install Django and other necessary libraries:
+- Install Django and other necessary libraries:
    - Use `pip install Django` to install Django.
    - Install any other required libraries.
-2. Write your code.
-3. Create a `.env` file for sensitive data and add it to the `.gitignore` file to prevent it from being publicly accessible.
-4. Generate a `requirements.txt` file by running `pip3 freeze --local > requirements.txt`.
-5. Create a `Procfile`.
+- Write your code.
+- Create a `.env` file for sensitive data and add it to the `.gitignore` file to prevent it from being publicly accessible.
+- Generate a `requirements.txt` file by running `pip3 freeze --local > requirements.txt`.
+- Create a `Procfile`.
 
 ### **Heroku**
 
-1. Log in to Heroku.
-2. Click the "New" button, then select "New app".
-3. Choose a unique app name and region, then click "Create app".
-4. Go to "Settings" and click "Reveal Config Vars". Here, enter all the sensitive data, database addresses, and other URLs used in the project.
-5. Go back to the top and click on "Deploy", then select "GitHub".
-6. Scroll down and click on "Connect to GitHub".
-7. Search for your GitHub repository name by typing it in the search field.
-8. Click on "Connect".
-9. Scroll down and click on "Deploy Branch".
-10. Once the app is built with Python and all the dependencies, you'll see a message that says "The app was successfully deployed".
-11. Click on "View" to see the [deployed site](https://avtpepper-onestop-artist-shop.herokuapp.com/).
+- Log in to Heroku.
+- Click the "New" button, then select "New app".
+- Choose a unique app name and region, then click "Create app".
+- Go to "Settings" and click "Reveal Config Vars". Here, enter all the sensitive data, database addresses, and other URLs used in the project.
+- Go back to the top and click on "Deploy", then select "GitHub".
+- Scroll down and click on "Connect to GitHub".
+- Search for your GitHub repository name by typing it in the search field.
+- Click on "Connect".
+- Scroll down and click on "Deploy Branch".
+- Once the app is built with Python and all the dependencies, you'll see a message that says "The app was successfully deployed".
+- Click on "View" to see the [deployed site](https://ci-project-cookbook-fe13e6be7172.herokuapp.com/).
 
 ## Credits 
 
-
+- Balsamiq is userd for wireframes(https://balsamiq.com/)
 - Lucid is used to create wireframes during the design process and flowchart creation(https://lucid.co/)
 - Logo Created using canva(https://www.canva.com/)
 - This video helped us to inspire the logic :(https://www.youtube.com/watch?v=sBjbty691eI&list=PLXuTq6OsqZjbCSfiLNb2f1FOs8viArjWy)
