@@ -101,13 +101,19 @@ Lo fidelity initial wireframes:</br>
 <img src="documents/lo_fedilitydesign.jpeg" alt="initial wireframe" width="500">
 
 
-Hi-fidelity wireframes were created using Llucid for mobile, table and desktop versions.</br>
 
-  - The desktop versions and mobile version:</br>
+CookBook Recipes website is designed with Bootstrap to ensure responsiveness, making it accessible on mobile, tablet, and desktop devices
 
-<img src="documents/wireframe.png" alt="home page" width="500">
+Balsamiq is used to create the wireframes. They were served as initial thnking and evolved during the build in line with Agile methodology.
 
-
+- Home Page</br>
+<img src="documents/home_page.png" alt="home page wireframe" width="500">
+- Mobile Home Page</br>
+<img src="documents/mobile_homepage.png" alt="mobil home page wireframe" width="250">
+- View Recipes Page</br>
+<img src="documents/view recipe.png" alt="view recipe page wireframe" width="500">
+- Recipes Page</br>
+<img src="documents/Recipes_page.png" alt="recipes page wireframe" width="250">
 
 
 
@@ -150,7 +156,7 @@ I checked homepage, welcome page, sign in, sign out, sign up, recipe list, view 
 
 
 ## JS
-I used the JS Hint Validator to check my JS code and there were no errors.
+I used the JS Hint Validator to check my JS code.
 
 <img src="documents/add_recipe_js.png" alt="views_python_validator" width="500">
 
