@@ -156,7 +156,7 @@ I checked homepage, welcome page, sign in, sign out, sign up, recipe list, view 
 
 
 ## JS
-I used the JS Hint Validator to check my JS code.
+- I used the JS Hint Validator to check my JS code. I used java script in pop-up-messages like successful log in , logout,updated or deleted recipe.
 
 <img src="documents/add_recipe_js.png" alt="views_python_validator" width="500">
 
@@ -209,8 +209,12 @@ I used the JS Hint Validator to check my JS code.
 ## Javascript pop up message test
 |Test                                                         | Result |
 |-------------------------------------------------------------|--------|
-| Pop up message shows when user is logged in successfully    | Pass   |
-| 
+| Pop up message shows when user is logged in successfully.   | Pass   |
+| Pop up message shows when user is loggedout successfully.   | Pass   |
+| Pop up message shows when  new recipe is added.             | Pass   |
+| Pop up message shows when recipe is edited.                 | Pass   |
+| Pop up message shows when recipe is deleted.                | Pass   |
+
 
 
 ## Administrative controls tests
